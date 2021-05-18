@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-color: burlywood;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+header li {
+    margin: 10px 10px 0 10px;
+    display: inline-block;
+}
+
+.home {
+    text-align: center;
+    width: 100%;
+    height: calc(100vh - 200px);
+    line-height: calc(100vh - 200px);
+}
+
+.contacts {
+    text-align: center;
+    width: 100%;
+}
+.contacts ul {
+    margin: 250px 0;
+}
+
+main {
+    text-align: center;
+}
+main form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 200px);
+}
+main form input {
+    width: 50%;
+    height: 100px;
+}
+main form input:last-of-type {
+    width: 100px;
+    height: 25px;
+    margin: 25px 0;
+}
+main a {
+    text-decoration: none;
+}
+.news {
+    cursor: pointer;
+    border: 2px solid lightgrey;
+    text-align: center;
+    width: 50%;
+    margin: 100px auto;
+}
+.news:hover {
+    background-color: lightgray;
+}
+.news .category {
+    text-align: start;
+    width: 100%;
+}
+.news h1 {
+    margin: 10px 0;
+}
+.news .info_news {
+    margin: 25px 0;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 25px;
+    margin: 0 auto;
+    height: calc(100vh - 200px);
+}
+.form_delete {
+    height: auto;
+    display: inline-block;
+    margin: 5px;
+}
